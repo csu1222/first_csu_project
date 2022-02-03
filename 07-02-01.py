@@ -13,8 +13,6 @@ def prime_to_len(start, end):
 
     for item in output_start:
         output_end.remove(item)
-    str_list = map(str, list(output_end))
-    ed = "".join(str_list)
     return len(output_end)
 
 
